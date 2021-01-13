@@ -16,7 +16,7 @@
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;400;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@300;400;600&display=swap"
         rel="stylesheet">
 
     <title>Penguin Fashion</title>
@@ -24,53 +24,71 @@
 
 <body>
 
-    <header class="header container">
+    <header class="header py-3">
 
-        <nav class="navbar navbar-expand-lg navbar-light mx-0">
-            <div class="container-fluid">
+        <div class="container-fluid">
 
-                <a class="navbar-brand" href="#">
-                    <img class="w-50" src="Icons/Logo.png" alt="">
-                </a>
+            <nav class="navbar navbar-expand-lg navbar-light mx-0">
+                <div class="container-fluid">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <a class="navbar-brand w-75" href="#">
+                        <img class="w-50" src="Icons/Logo.png" alt="">
+                    </a>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
                 </div>
-            </div>
-        </nav>
+
+            </nav>
+        </div>
+
 
     </header>
 
     <main>
 
-        <section class="introduction py-5">
+        <!---------------- header section ------------------>
+
+        <section class="introduction py-5 mb-5">
 
 
             <div class="container">
 
                 <div class="row">
-                    <div class="col-6">
-                        <h1 class="heading">BACKPACK <br> MOON</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <button class="btn btn-lg btn-success"><i class="fas fa-shopping-cart pe-3"></i>Buy Now</button>
+                    <div class="col-6 d-flex align-items-center">
+
+                        <div>
+                            <h1 class="heading primary-color">BACKPACK <br> <span class="secondary-color">MOON</span>
+                            </h1>
+                            <p class="paragraph">Lorem ipsum, dolor sit amet
+                                consectetur
+                                adipisicing elit.</p>
+                            <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                    class="fas fa-shopping-cart pe-3"></i>BUY
+                                NOW</button>
+                        </div>
+
                     </div>
 
                     <div class="col-6">
@@ -83,10 +101,10 @@
         </section>
 
 
-        <!-- section feature -->
+        <!----------------- section feature ---------------------->
 
 
-        <section class="features py-5 bg-white">
+        <section class="features py-5">
 
             <div class="container">
 
@@ -97,32 +115,32 @@
 
                         <div class="row p-3 gy-3">
 
-                            <div class="feature-box p-2 shadow bg-white rounded-3 d-flex w-100">
+                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 12.png" alt="">
 
                                 <div class="ps-2 ms-3 pe-5 py-2">
-                                    <h3>Find the Perfect Fit</h3>
-                                    <p>Everybody is different, which is why we
+                                    <h3 class="primary-color">Find the Perfect Fit</h3>
+                                    <p class="paragraph">Everybody is different, which is why we
                                         offer styles for every body.</p>
                                 </div>
                             </div>
 
-                            <div class="feature-box p-2 shadow bg-white rounded-3 d-flex w-100">
+                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 13.png" alt="">
 
                                 <div class="ps-2 ms-3 pe-5 py-2">
-                                    <h3>Free Exchanges</h3>
-                                    <p>One of the many reasons you can shop
+                                    <h3 class="primary-color">Free Exchanges</h3>
+                                    <p class="paragraph">One of the many reasons you can shop
                                         with peace of mind</p>
                                 </div>
                             </div>
 
-                            <div class="feature-box p-2 shadow bg-white rounded-3 d-flex w-100">
+                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 14.png" alt="">
 
                                 <div class="ps-2 ms-3 pe-5 py-2">
-                                    <h3>Contact Our Seller</h3>
-                                    <p>They are here to help you. That's quite
+                                    <h3 class="primary-color">Contact Our Seller</h3>
+                                    <p class="paragraph">They are here to help you. That's quite
                                         literally what we pay them for.</p>
                                 </div>
                             </div>
@@ -142,15 +160,14 @@
 
         </section>
 
-        <!-- section casual backpacks -->
 
-        <section class="casual-backpack my-5">
+        <!--------------- section casual backpacks ---------------------->
 
+        <section class="casual-backpack py-5">
 
+            <div class="container pt-3">
 
-            <div class="container">
-
-                <h2 class="mb-5">Casual Backpacks</h2>
+                <h2 class="mb-5 primary-color">Casual Backpacks</h2>
 
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -161,13 +178,16 @@
                                 <img src="Photos/casual-bags1.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>Nike Sportswear Hayward</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">Nike Sportswear Hayward</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -179,13 +199,16 @@
                                 <img src="Photos/casual-bags2.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>School Backpack</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">School Backpack</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -197,13 +220,16 @@
                                 <img src="Photos/casual-bags3.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>Citylight Security Backpack</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">Citylight Security Backpack</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -214,16 +240,15 @@
 
         </section>
 
-        <!-- section travel backpacks -->
+        <!------------------- section travel backpacks ------------------->
 
 
-        <section class="casual-backpack my-5">
+        <section class="casual-backpack py-5">
 
 
+            <div class="container pt-3">
 
-            <div class="container">
-
-                <h2 class="mb-5">Travel Backpacks</h2>
+                <h2 class="mb-5 primary-color">Travel Backpacks</h2>
 
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -234,13 +259,16 @@
                                 <img src="Photos/travel-bags1.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>Travel Sport</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">Travel Sport</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -252,13 +280,16 @@
                                 <img src="Photos/travel-bags2.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>Jack Wolfskin West Highland</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">Jack Wolfskin West Highland</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -270,13 +301,16 @@
                                 <img src="Photos/travel-bags3.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <h3>Hiking Trekking Bag Camping</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.<p>
+                                <h3 class="primary-color">Hiking Trekking Bag Camping</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
+                                    <p>
                             </div>
                             <div class="card-footer my-card-footer bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
-                                    <h5 class="price-tag mt-1">234$</h5>
-                                    <button class="btn btn-lg btn-danger px-5 py-3">Buy Now</button>
+                                    <h5 class="price-tag mt-1 secondary-color">$234</h5>
+                                    <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
+                                            class="fas fa-shopping-cart pe-3"></i>BUY
+                                        NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -288,10 +322,70 @@
 
         </section>
 
+        <!-- section other categories -->
+
+        <section class="other-categories py-5 my-5">
+
+            <div class="container">
+
+                <h2 class="mb-5 primary-color">Other Categories</h2>
 
 
+                <div class="row">
+
+                    <div class="categories-box box-bgcolor-2 col-6 d-flex justify-content-center align-items-center">
+                        <img class=" categories-img " src="Photos/categories (1).png" alt="">
+
+                        <div>
+                            <h2>Carry Bags</h2>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="categories-box box-bgcolor col-6 d-flex justify-content-center align-items-center">
+                        <img class=" categories-img " src="Photos/categories (2).png" alt="">
+
+                        <div>
+                            <h2>Hand Bags</h2>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="categories-box box-bgcolor col-6 d-flex justify-content-center align-items-center">
+                        <img class=" categories-img " src="Photos/categories (4).png" alt="">
+
+                        <div>
+                            <h2>Trolley Bags</h2>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="categories-box box-bgcolor-2 col-6 d-flex justify-content-center align-items-center">
+                        <img class=" categories-img " src="Photos/categories (3).png" alt="">
+
+                        <div>
+                            <h2>Briefcases</h2>
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
 
     </main>
+
+
+    <footer class="d-flex justify-content-center py-5">
+        &copy;Penguin Fashion. All Rights Reserved.
+    </footer>
 
 
 

@@ -2,7 +2,8 @@
 font-family: 'Signika', sans-serif; */
 
 body {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    background-color: #f7fcfc;
 }
 
 h1,
@@ -10,13 +11,85 @@ h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-.header {}
+h2 {
+    font-size: 3.15rem;
+}
 
-.introduction {}
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.primary-color {
+    color: #1d2d50;
+}
+
+.secondary-color {
+    color: #77ac51;
+}
+
+.btn-bgcolor {
+    background-color: #1d2d50;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #686d76;
+}
+
+.header {
+    background-color: #e0ece4;
+}
+
+.header li {
+    padding: 0 10px;
+}
+
+.introduction {
+    background-color: #e0ece4;
+}
 
 .feature-box {}
 
 .my-card,
 .my-card-footer {
     border: none;
+}
+
+.price-tag {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.categories-img {
+    width: 17.5rem;
+    height: 12.5rem;
+}
+
+.categories-box {
+    height: 17.5rem;
+    transition: all .4s;
+}
+
+.categories-box:hover {
+    transition: all .4s;
+}
+
+.categories-box:hover>img {
+    transform: scale(1.2);
+    transition: all .4s;
+}
+
+.box-bgcolor {
+    background-color: rgb(230, 239, 245);
+}
+
+.box-bgcolor-2 {
+    background-color: #c4e4ad;
 }
