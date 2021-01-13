@@ -74,16 +74,11 @@ h3 {
 
 .categories-box {
     height: 17.5rem;
-    transition: all .4s;
 }
 
-.categories-box:hover {
-    transition: all .4s;
-}
-
-.categories-box:hover>img {
-    transform: scale(1.2);
-    transition: all .4s;
+.categories-box:hover img {
+    transform: scale(1.25);
+    transition: all .5s;
 }
 
 .box-bgcolor {
