@@ -5,8 +5,18 @@ body {
     font-family: 'Signika', sans-serif;
 }
 
-.heading {}
+h1,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header {}
 
 .introduction {}
 
 .feature-box {}
+
+.my-card,
+.my-card-footer {
+    border: none;
+}
