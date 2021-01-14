@@ -1,10 +1,8 @@
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Signika', sans-serif; */
-
 body {
     font-family: 'Epilogue', sans-serif;
-    background-color: #f7fcfc;
 }
+
+/************* TYPOGRAPHY ***********/
 
 h1,
 h2 {
@@ -20,18 +18,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-.primary-color {
-    color: #1d2d50;
-}
-
-.secondary-color {
-    color: #77ac51;
-}
-
-.btn-bgcolor {
-    background-color: #1d2d50;
-}
-
 .heading {
     font-size: 5rem;
     font-weight: 500;
@@ -43,48 +29,91 @@ h3 {
     color: #686d76;
 }
 
-.header {
+.price-tag {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+
+/************ COLORS **************/
+
+.primary-color {
+    color: #1d2d50;
+}
+
+.secondary-color {
+    color: #77ac51;
+}
+
+.my-bgcolor {
+    background-color: rgb(230, 239, 245);
+}
+
+.my-bgcolor-responsive {
+    background-color: rgb(230, 239, 245);
+}
+
+.my-bgcolor-2 {
+    background-color: #c4e4ad;
+}
+
+.my-bgcolor-2-responsive {
+    background-color: #c4e4ad;
+}
+
+.my-bgcolor-3 {
     background-color: #e0ece4;
+}
+
+.btn-bgcolor {
+    background-color: #1d2d50;
 }
 
 .header li {
     padding: 0 10px;
 }
 
-.introduction {
-    background-color: #e0ece4;
+/********* BORDERS AND SHADOWS *********/
+
+.my-shadow {
+    box-shadow: 5px 5px 15px rgba(119, 150, 207, 0.25);
 }
 
-.feature-box {}
+.my-border {
+    border-radius: 15px;
+}
 
-.my-card,
-.my-card-footer {
+.my-border-none {
     border: none;
 }
 
-.price-tag {
-    font-size: 2.75rem;
-    font-weight: 600;
-}
+/********* WIDTH, HEIGHT, SPACING **********/
 
 .categories-img {
-    width: 17.5rem;
-    height: 12.5rem;
+    height: 10rem;
 }
 
 .categories-box {
-    height: 17.5rem;
+    padding: 3rem;
+    height: 20rem;
 }
+
+/*********** HOVER EFFECTS **********/
 
 .categories-box:hover img {
     transform: scale(1.25);
     transition: all .5s;
 }
 
-.box-bgcolor {
-    background-color: rgb(230, 239, 245);
-}
+/********* MEDIA QUERIES **********/
 
-.box-bgcolor-2 {
-    background-color: #c4e4ad;
+@media only screen and (max-width:768px) {
+
+    .my-bgcolor-responsive {
+        background-color: #c4e4ad;
+    }
+
+    .my-bgcolor-2-responsive {
+        background-color: rgb(230, 239, 245);
+    }
 }

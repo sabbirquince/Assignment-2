@@ -24,15 +24,17 @@
 
 <body>
 
-    <header class="header py-3">
+    <!------------------- section navigation --------------------->
+
+    <header class="my-bgcolor-3 py-2 px-0 px-lg-5">
 
         <div class="container-fluid">
 
-            <nav class="navbar navbar-expand-lg navbar-light mx-0">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light my-bgcolor-3 px-lg-5 px-0 py-0 mx-0">
                 <div class="container-fluid">
 
                     <a class="navbar-brand w-75" href="#">
-                        <img class="w-50" src="Icons/Logo.png" alt="">
+                        <img class="w-75" src="Icons/Logo.png" alt="">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,10 +48,10 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
+                                <a class="nav-link" href="#product">Product</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#categories">Categories</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
@@ -68,30 +70,29 @@
 
     <main>
 
-        <!---------------- header section ------------------>
+        <!---------------- section introduction ------------------>
 
-        <section class="introduction py-5 mb-5">
+        <section class=" my-bgcolor-3 py-5">
 
 
-            <div class="container">
+            <div class="container py-5">
 
                 <div class="row">
-                    <div class="col-6 d-flex align-items-center">
 
+                    <div class="col-12 col-lg-6 d-flex align-items-center">
                         <div>
                             <h1 class="heading primary-color">BACKPACK <br> <span class="secondary-color">MOON</span>
                             </h1>
-                            <p class="paragraph">Lorem ipsum, dolor sit amet
+                            <p class="paragraph pe-5">Lorem ipsum, dolor sit amet
                                 consectetur
-                                adipisicing elit.</p>
+                                adipisicing elit dolor sit amet.</p>
                             <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
                                     class="fas fa-shopping-cart pe-3"></i>BUY
                                 NOW</button>
                         </div>
-
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-center">
                         <img class="w-75 h-100" src="Photos/green.png" alt="">
                     </div>
                 </div>
@@ -109,36 +110,42 @@
             <div class="container">
 
 
-                <div class="row">
+                <div class="d-flex flex-column flex-lg-row">
+                    <!-- row -->
+                    <!-- col-12 col-lg-6 col-xl-5 -->
+                    <!-- col-12 col-lg-6 col-xl-7 -->
 
-                    <div class="col-5">
+                    <div class="w-100 order-2 order-lg-1 pe-lg-5">
 
-                        <div class="row p-3 gy-3">
+                        <div class="row p-3 pe-lg-5 gy-3">
 
-                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
+                            <div class="my-shadow p-2 d-flex flex-column flex-lg-row align-items-center w-100">
+
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 12.png" alt="">
 
-                                <div class="ps-2 ms-3 pe-5 py-2">
+                                <div class="ps-2 ms-3 pe-5 py-2 text-center text-lg-start">
                                     <h3 class="primary-color">Find the Perfect Fit</h3>
                                     <p class="paragraph">Everybody is different, which is why we
                                         offer styles for every body.</p>
                                 </div>
                             </div>
 
-                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
+                            <div class="my-shadow p-2 d-flex flex-column flex-lg-row align-items-center w-100">
+
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 13.png" alt="">
 
-                                <div class="ps-2 ms-3 pe-5 py-2">
+                                <div class="ps-2 ms-3 pe-5 py-2 text-center text-lg-start">
                                     <h3 class="primary-color">Free Exchanges</h3>
                                     <p class="paragraph">One of the many reasons you can shop
                                         with peace of mind</p>
                                 </div>
                             </div>
 
-                            <div class="feature-box p-2 shadow bg-light rounded-3 d-flex w-100">
+                            <div class="my-shadow p-2 d-flex flex-column flex-lg-row align-items-center w-100">
+
                                 <img class="m-2" style="width: 5.5rem;" src="Icons/image 14.png" alt="">
 
-                                <div class="ps-2 ms-3 pe-5 py-2">
+                                <div class="ps-2 ms-3 pe-5 py-2 text-center text-lg-start">
                                     <h3 class="primary-color">Contact Our Seller</h3>
                                     <p class="paragraph">They are here to help you. That's quite
                                         literally what we pay them for.</p>
@@ -149,11 +156,12 @@
                     </div>
 
 
-                    <div class="col-7">
-                        <div class="w-100 p-5">
-                            <img class="w-100" src="Icons/intro.png" alt="">
+                    <div class="order-1 order-lg-2 w-100">
+                        <div class="h-100 ps-lg-5 py-lg-2 d-flex align-items-center">
+                            <img class="w-100 p-5 p-lg-3" src="Icons/intro.png" alt="">
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -163,7 +171,7 @@
 
         <!--------------- section casual backpacks ---------------------->
 
-        <section class="casual-backpack py-5">
+        <section id="product" class="casual-backpack py-5">
 
             <div class="container pt-3">
 
@@ -172,9 +180,9 @@
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
-                    <div class="col">
-                        <div class="card h-100 shadow  my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow  my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/casual-bags1.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -182,7 +190,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -193,9 +201,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100 shadow  my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow  my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/casual-bags2.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -203,7 +211,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -214,9 +222,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100 shadow  my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow  my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/casual-bags3.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -224,7 +232,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -253,9 +261,9 @@
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
-                    <div class="col">
-                        <div class="card h-100 shadow my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/travel-bags1.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -263,7 +271,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -274,9 +282,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100 shadow my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/travel-bags2.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -284,7 +292,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -295,9 +303,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100 shadow my-card">
-                            <div class="py-3 px-5 m-3 rounded-3 bg-light">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 my-border my-shadow my-border-none ">
+                            <div class="py-3 px-5 m-3 my-border my-bgcolor">
                                 <img src="Photos/travel-bags3.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
@@ -305,7 +313,7 @@
                                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.
                                     <p>
                             </div>
-                            <div class="card-footer my-card-footer bg-white">
+                            <div class="card-footer my-border-none bg-white">
                                 <div class="tag d-flex align-items-center justify-content-between">
                                     <h5 class="price-tag mt-1 secondary-color">$234</h5>
                                     <button class="btn text-light py-3 px-4 rounded-3 btn-bgcolor"><i
@@ -322,53 +330,63 @@
 
         </section>
 
+
+
         <!-- section other categories -->
 
-        <section class="other-categories py-5 my-5">
+        <section id="categories" class="other-categories py-5 my-2">
 
             <div class="container">
 
-                <h2 class="mb-5 primary-color">Other Categories</h2>
+                <h2 class="mb-5 primary-color text-center text-sm-start">Other Categories</h2>
 
 
                 <div class="row">
 
-                    <div class="categories-box box-bgcolor-2 col-6 d-flex justify-content-center align-items-center">
+                    <div
+                        class="categories-box my-bgcolor-2 col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <img class=" categories-img " src="Photos/categories (1).png" alt="">
 
-                        <div class="">
+                        <div class="py-3 d-flex flex-column align-items-center">
                             <h2>Carry Bags</h2>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="paragraph text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
 
                         </div>
                     </div>
 
-                    <div class="categories-box box-bgcolor col-6 d-flex justify-content-center align-items-center">
-                        <img class=" categories-img " src="Photos/categories (2).png" alt="">
+                    <div
+                        class="categories-box my-bgcolor col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <img class=" categories-img h-75" src="Photos/categories (2).png" alt="">
 
-                        <div class="cate-text">
+                        <div class="py-3 d-flex flex-column align-items-center">
                             <h2>Hand Bags</h2>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="paragraph text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
 
                         </div>
                     </div>
 
-                    <div class="categories-box box-bgcolor col-6 d-flex justify-content-center align-items-center">
+                    <div
+                        class="categories-box my-bgcolor-responsive col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <img class=" categories-img " src="Photos/categories (4).png" alt="">
 
-                        <div class="">
+                        <div class="py-3 d-flex flex-column align-items-center">
                             <h2>Trolley Bags</h2>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="paragraph text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
 
                         </div>
                     </div>
 
-                    <div class="categories-box box-bgcolor-2 col-6 d-flex justify-content-center align-items-center">
+                    <div
+                        class="categories-box my-bgcolor-2-responsive col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <img class=" categories-img " src="Photos/categories (3).png" alt="">
 
-                        <div class="">
+                        <div class="py-3 d-flex flex-column align-items-center">
                             <h2>Briefcases</h2>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="paragraph text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
 
                         </div>
                     </div>
@@ -383,7 +401,7 @@
     </main>
 
 
-    <footer class="d-flex justify-content-center py-5">
+    <footer class="d-flex justify-content-center py-2 my-bgcolor-3">
         &copy;Penguin Fashion. All Rights Reserved.
     </footer>
 
