@@ -49,15 +49,7 @@ h3 {
     background-color: rgb(230, 239, 245);
 }
 
-.my-bgcolor-responsive {
-    background-color: rgb(230, 239, 245);
-}
-
 .my-bgcolor-2 {
-    background-color: #c4e4ad;
-}
-
-.my-bgcolor-2-responsive {
     background-color: #c4e4ad;
 }
 
@@ -108,12 +100,11 @@ h3 {
 /********* MEDIA QUERIES **********/
 
 @media only screen and (max-width:768px) {
-
-    .my-bgcolor-responsive {
+    .my-bgcolor:nth-child(3) {
         background-color: #c4e4ad;
     }
 
-    .my-bgcolor-2-responsive {
+    .my-bgcolor-2:last-child {
         background-color: rgb(230, 239, 245);
     }
 }
